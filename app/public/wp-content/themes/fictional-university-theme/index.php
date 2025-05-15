@@ -1,6 +1,4 @@
-<h1>This is the header area</h1>
-
-<?php 
+<?php get_header();
 
 while(have_posts()) {
     the_post(); ?>
@@ -9,6 +7,6 @@ while(have_posts()) {
     <hr>
 <?php }
 
-?>
+get_footer();
 
-<h1>This is the footer area</h1>
+?>
