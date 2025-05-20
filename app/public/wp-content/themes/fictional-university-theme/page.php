@@ -17,9 +17,17 @@ while(have_posts()) {
     </div>
 
     <div class="container container--narrow page-section">
+
+    <!-- Because the condition is correct, PHP will display 'the sky is blue' -->
+    <?php 
+     if (2 + 2 == 4) {
+        echo "The sky is blue";
+     }
+    ?>
+        
       <div class="metabox metabox--position-up metabox--with-home-link">
         <p>
-          <a class="metabox__blog-home-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Back to About Us</a> <span class="metabox__main">Our History</span>
+          <a class="metabox__blog-home-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Back to About Us</a> <span class="metabox__main"><?php the_title(); ?></span>
         </p>
       </div>
 
