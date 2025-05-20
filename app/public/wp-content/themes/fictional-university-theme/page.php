@@ -20,7 +20,9 @@ while(have_posts()) {
 
     <!-- Because the condition is correct, PHP will display 'the sky is blue' -->
     <?php 
-     echo get_the_ID();
+     if (TRUE) {
+        echo "I am a child page.";
+     }
     ?>
         
       <div class="metabox metabox--position-up metabox--with-home-link">
