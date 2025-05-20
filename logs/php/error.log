@@ -3,3 +3,5 @@
 [16-May-2025 11:43:05 UTC] PHP Parse error:  syntax error, unexpected token "{", expecting "(" in /Users/reuben/Local Sites/fictional-site-work/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
 [16-May-2025 11:43:22 UTC] PHP Parse error:  syntax error, unexpected token "{", expecting "(" in /Users/reuben/Local Sites/fictional-site-work/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
 [16-May-2025 11:43:22 UTC] PHP Parse error:  syntax error, unexpected token "{", expecting "(" in /Users/reuben/Local Sites/fictional-site-work/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[20-May-2025 07:25:10 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/reuben/Local Sites/fictional-site-work/app/public/wp-content/themes/fictional-university-theme/page.php on line 23
+[20-May-2025 07:26:06 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/reuben/Local Sites/fictional-site-work/app/public/wp-content/themes/fictional-university-theme/page.php on line 23
