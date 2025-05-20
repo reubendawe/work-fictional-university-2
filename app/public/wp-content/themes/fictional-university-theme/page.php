@@ -20,9 +20,7 @@ while(have_posts()) {
 
     <!-- Because the condition is correct, PHP will display 'the sky is blue' -->
     <?php 
-     if (2 + 2 == 4) {
-        echo "The sky is blue";
-     }
+     echo get_the_ID();
     ?>
         
       <div class="metabox metabox--position-up metabox--with-home-link">
